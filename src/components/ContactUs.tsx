@@ -1,8 +1,8 @@
 import { Button } from "./ui/button";
 import { Input } from "./ui/input";
 
-export const Newsletter = () => {
-  const handleSubmit = (e: any) => {
+export const ContactUs = () => {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     console.log("Subscribed!");
   };
@@ -13,10 +13,11 @@ export const Newsletter = () => {
 
       <div className="container py-24 sm:py-32">
         <h3 className="text-center text-4xl md:text-5xl font-bold">
-          Join Our Daily{" "}
+          Reach Out to {" "}
           <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-            Newsletter
+            CNG
           </span>
+          {" "}and we will get back to you
         </h3>
         <p className="text-xl text-muted-foreground text-center mt-4 mb-8">
           Lorem ipsum dolor sit amet consectetur.
@@ -27,11 +28,11 @@ export const Newsletter = () => {
           onSubmit={handleSubmit}
         >
           <Input
-            placeholder="leomirandadev@gmail.com"
+            placeholder="youremail@gmail.com"
             className="bg-muted/50 dark:bg-muted/80 "
             aria-label="email"
           />
-          <Button>Subscribe</Button>
+          <Button>Contact Us</Button>
         </form>
       </div>
 
