@@ -1,26 +1,28 @@
 # CNG Landing page
 
-## How to install
+## How to install via command line (linux terminal / gitbash)
 
-1. Clone this repository:
+1. Make sure git and npm/nvm is installed
 
-```bash
-git clone install https://github.com/mubrik/cng-landing-page.git
-```
-
-2. Open project directory
+2. Clone this repository:
 
 ```bash
-cd  cng-landing-page
+git clone https://github.com/mubrik/cng-landing-page.git
 ```
 
-3. Install dependencies
+3. Open project directory
+
+```bash
+cd cng-landing-page
+```
+
+4. Install dependencies
 
 ```bash
 npm install
 ```
 
-4. Run project
+5. Run project
 
 ```bash
 npm run dev
