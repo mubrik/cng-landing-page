@@ -13,33 +13,28 @@ interface FAQProps {
 
 const FAQList: FAQProps[] = [
   {
-    question: "What is CNG?",
-    answer: "Yes. It is a free ChadcnUI template.",
+    question: "Is CNG conversion safe for my vehicle?",
+    answer: "Yes, CNG conversion is safe when done by certified professionals using approved kits. Our CNG Conversion Centre follows strict safety protocols and uses only government-approved equipment to ensure optimal performance and safety",
     value: "item-1",
   },
   {
-    question: "What is CNG?",
-    answer:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint labore quidem quam? Consectetur sapiente iste rerum reiciendis animi nihil nostrum sit quo, modi quod.",
+    question: "How do I know if the lubricants used are of high quality?",
+    answer: "We use only premium-grade lubricants from trusted brands that meet or exceed industry standards. Each product is rigorously tested to ensure it delivers maximum engine protection and efficiency.",
     value: "item-2",
   },
   {
-    question:
-      "What is CNG?",
-    answer:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore qui nostrum reiciendis veritatis necessitatibus maxime quis ipsa vitae cumque quo?",
+    question: "How often should I get wheel balancing and alignment done?",
+    answer: "We recommend checking your wheel balancing and alignment every 2,000 to 4,000 kilometers or if you notice uneven tire wear, vibration, or your car pulling to one side. Proper alignment ensures safer driving and better fuel economy.",
     value: "item-3",
   },
   {
-    question: "What is CNG?",
-    answer: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+    question: "What safety measures are in place at your fueling stations?",
+    answer: "Our fueling stations are equipped with advanced safety systems, fire suppression technology, and are operated by trained personnel to ensure a safe and smooth refueling experience for all customers.",
     value: "item-4",
   },
   {
-    question:
-      "What is CNG?",
-    answer:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint labore quidem quam? Consectetur sapiente iste rerum reiciendis animi nihil nostrum sit quo, modi quod.",
+    question: "Do you offer warranties or guarantees on car services and repairs?",
+    answer: "Yes, our car service centre provides service warranties on parts and labor. We stand by the quality of our work and aim to deliver reliable, transparent, and trusted service every time.",
     value: "item-5",
   },
 ];
@@ -48,7 +43,7 @@ export const FAQ = () => {
   return (
     <section
       id="faq"
-      className="container py-24 sm:py-32"
+      className="container py-16 sm:py-18"
     >
       <h2 className="text-3xl md:text-4xl font-bold mb-4">
         Frequently Asked{" "}

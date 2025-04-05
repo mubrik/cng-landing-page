@@ -1,3 +1,12 @@
+import IconLogoPng from "../assets/icon-light.png";
+
+
+export const IconLogo = () => {
+  return (
+    <img src={IconLogoPng} className="size-16" />
+  )
+};
+
 export const LogoIcon = () => {
   return (
     <svg

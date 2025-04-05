@@ -7,21 +7,27 @@ export const Hero = () => {
         <main className="text-5xl md:text-6xl font-bold">
           <h1 className="inline">
             <span className="inline bg-gradient-to-r from-[#F596D3]  to-[#D247BF] text-transparent bg-clip-text">
-              CNG
+              AMK
             </span>{" "}
-            landing page
+            integrated
           </h1>{" "}
-          for{" "}
-          <h2 className="inline">
+          {/* for{" "} */}
+          {/* <h2 className="inline">
             <span className="inline bg-gradient-to-r from-[#61DAFB] via-[#1fc0f1] to-[#03a3d7] text-transparent bg-clip-text">
               Add
             </span>{" "}
             details
-          </h2>
+          </h2> */}
         </main>
 
         <p className="text-xl text-muted-foreground md:w-10/12 mx-auto lg:mx-0">
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem
+          We are a multinational oil and gas company with operations spanning
+          the entire energy value chain — from exploration and production to
+          refining, distribution, and energy innovation. With a strong
+          commitment to safety, sustainability, and performance, we deliver the
+          energy the world needs to thrive today and transition toward a
+          lower-carbon future. Our diverse teams and global presence enable us
+          to drive progress, create value, and shape the future of energy.
         </p>
       </div>
 

@@ -1,6 +1,6 @@
 import { Card, CardDescription, CardHeader, CardTitle } from "./ui/card";
 import { MagnifierIcon, WalletIcon, ChartIcon } from "./Icons";
-import cubeLeg from "../assets/cube-leg.png";
+import IconLogoPng from "../assets/icon-light.png";
 
 interface ServiceProps {
   title: string;
@@ -10,21 +10,28 @@ interface ServiceProps {
 
 const serviceList: ServiceProps[] = [
   {
-    title: "Code Collaboration",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+    title: "Fueling",
+    description: "We provide high-quality fuels at our strategically located stations, ensuring safe, efficient, and reliable refueling for both private and commercial vehicles.",
     icon: <ChartIcon />,
   },
   {
-    title: "Project Management",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+    title: "Lubricants",
+    description: "Our premium range of lubricants enhances engine performance, reduces wear, and extends vehicle lifespan. Suitable for all types of engines, including high-performance and heavy-duty applications.",
     icon: <WalletIcon />,
   },
   {
-    title: "Task Automation",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+    title: "Car Service centre",
+    description: "Our expert technicians offer comprehensive car maintenance and repair services—from routine checks to diagnostics and major repairs—using genuine parts and modern equipment.",
+    icon: <MagnifierIcon />,
+  },
+  {
+    title: "Wheel Balancing & Alignment",
+    description: "We use advanced technology to ensure precise wheel balancing and alignment, improving driving comfort, extending tire life, and boosting fuel efficiency.",
+    icon: <MagnifierIcon />,
+  },
+  {
+    title: "CNG Conversion centre",
+    description: "We offer certified CNG conversion services, enabling drivers to switch to a more economical and environmentally friendly fuel option without compromising performance.",
     icon: <MagnifierIcon />,
   },
 ];
@@ -36,14 +43,13 @@ export const Services = () => {
         <div>
           <h2 className="text-3xl md:text-4xl font-bold">
             <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-              Client-Centric{" "}
+              Our{" "}
             </span>
             Services
           </h2>
 
           <p className="text-muted-foreground text-xl mt-4 mb-8 ">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis
-            dolor.
+            Here are some of our mission critical works
           </p>
 
           <div className="flex flex-col gap-8">
@@ -66,7 +72,7 @@ export const Services = () => {
         </div>
 
         <img
-          src={cubeLeg}
+          src={IconLogoPng}
           className="w-[300px] md:w-[500px] lg:w-[600px] object-contain"
           alt="About services"
         />

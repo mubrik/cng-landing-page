@@ -14,7 +14,7 @@ import {
 import { buttonVariants } from "./ui/button";
 import { Menu } from "lucide-react";
 import { ModeToggle } from "./mode-toggle";
-import { LogoIcon } from "./Icons";
+import { IconLogo } from "./Icons";
 
 interface RouteProps {
   href: string;
@@ -23,15 +23,11 @@ interface RouteProps {
 
 const routeList: RouteProps[] = [
   {
-    href: "#about",
-    label: "About Us",
-  },
-  {
     href: "#services",
     label: "Our Services",
   },
   {
-    href: "#newsletter",
+    href: "#contact",
     label: "Contact Us",
   },
   {
@@ -44,17 +40,16 @@ export const Navbar = () => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
 
   return (
-    <header className="sticky border-b-[1px] top-0 z-40 w-full bg-white dark:border-b-slate-700 dark:bg-background">
+    <header className="sticky border-b-[1px] top-0 z-40 w-full bg-transparent backdrop-blur-sm shadow-md rounded-b-md  dark:border-b-slate-700 dark:bg-transparent">
       <NavigationMenu className="mx-auto">
-        <NavigationMenuList className="container h-14 px-4 w-screen flex justify-between ">
+        <NavigationMenuList className="container h-20 px-4 w-screen flex justify-between ">
           <NavigationMenuItem className="font-bold flex">
             <a
               rel="noreferrer noopener"
               href="/"
               className="ml-2 font-bold text-xl flex"
             >
-              <LogoIcon />
-              CNG Gas
+              <IconLogo />
             </a>
           </NavigationMenuItem>
 
