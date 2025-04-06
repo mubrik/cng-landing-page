@@ -1,6 +1,6 @@
 import StationOne from "../assets/station-one.jpg";
 import StationTwo from "../assets/station-two.jpg";
-import GasCylinder from "../assets/gas-cylinder.jpg";
+import CNGCylinder from "../assets/CNG Gas.jpg";
 
 export const HeroCards = () => {
   return (
@@ -15,7 +15,7 @@ export const HeroCards = () => {
       </div>
 
       <div className="absolute w-[160px] right-[120px] bottom-[200px]">
-        <img src={GasCylinder} className="w-[480px]" />
+        <img src={CNGCylinder} className="w-[480px]" />
       </div>
       {/* <Card className="absolute w-[340px] -top-[15px] drop-shadow-xl shadow-black/10 dark:shadow-white/10">
         <CardHeader className="flex flex-row items-center gap-4 pb-2">
