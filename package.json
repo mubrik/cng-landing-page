@@ -1,11 +1,6 @@
 {
-  "name": "shadcn-landing-page-template",
-  "description": "Landing page template utilizing Shadcn, React, Typescript, and Tailwind CSS for rapid development and responsive design.",
-  "author": {
-    "name": "Leopoldo Miranda",
-    "email": "leomirandadev@gmail.com",
-    "url": "https://github.com/leoMirandaa"
-  },
+  "name": "amk-integrated",
+  "description": "web page for amk integrated",
   "license": "MIT",
   "keywords": [
     "react",
@@ -40,7 +35,8 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "tailwind-merge": "^2.4.0",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwindcss-animate": "^1.0.7",
+    "wrangler": "^4.8.0"
   },
   "devDependencies": {
     "@types/node": "^20.14.2",
